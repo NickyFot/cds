@@ -31,7 +31,11 @@ jobs:
           cache: 'npm'
 
       - name: Install dependencies
-        run: npm ci
+        # Using `install` rather than `ci` because the lockfile inherited from
+        # the LoRAtorio scaffold lags behind package.json on test deps.
+        # Regenerate the lockfile (`rm package-lock.json && npm install` locally,
+        # then commit) if you want to switch back to `npm ci`.
+        run: npm install --no-audit --no-fund
 
       - name: Build
         run: npm run build
