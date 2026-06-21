@@ -79,7 +79,7 @@ const Index = () => {
       <section className="pt-16 pb-8 px-4">
         <div className="max-w-3xl mx-auto text-center">
           <h1 className="text-4xl md:text-5xl font-bold tracking-tight leading-tight mb-6">
-            CDS: Concept Distillation Sampling for Training-Free Multi-Concept Image Editing
+            Training-Free Multi-Concept Image Editing
           </h1>
           <div className="text-lg mb-1 space-x-1">
             <AuthorLink name="Niki Foteinopoulou" sup="1" />
@@ -550,7 +550,7 @@ const Index = () => {
           <h2 className="text-3xl font-bold text-center mb-6">BibTeX</h2>
           <pre className="bg-secondary/50 rounded-lg p-5 text-sm overflow-x-auto font-mono text-foreground/80 border border-border">
             {`@inproceedings{foteinopoulou2026cds,
-  title         = {Concept Distillation Sampling for Training-Free Multi-Concept Image Editing},
+  title         = {Training-Free Multi-Concept Image Editing},
   author        = {Foteinopoulou, Niki and Budvytis, Ignas and Liwicki, Stephan},
   booktitle     = {European Conference on Computer Vision (ECCV)},
   year          = {2026},
