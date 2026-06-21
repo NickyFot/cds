@@ -90,12 +90,21 @@ const Index = () => {
             <sup>1</sup>Cambridge Research Laboratory, Toshiba Europe &nbsp;
             <sup>2</sup>Independent Researcher
           </p>
-          <p className="text-sm text-muted-foreground mb-8">ECCV 2026 (Accepted)</p>
+          <p className="text-sm text-muted-foreground mb-8">
+            ECCV 2026 (Accepted) &middot; arXiv:2602.20839
+          </p>
 
           <div className="flex flex-wrap justify-center gap-3 mb-12">
-            {/* TODO: replace with the camera-ready PDF / arXiv URL once available */}
-            <LinkButton href="#" icon={<FileText className="w-4 h-4" />} label="Paper" />
-            <LinkButton href="#" icon={<ExternalLink className="w-4 h-4" />} label="arXiv" />
+            <LinkButton
+              href="https://arxiv.org/pdf/2602.20839"
+              icon={<FileText className="w-4 h-4" />}
+              label="Paper"
+            />
+            <LinkButton
+              href="https://arxiv.org/abs/2602.20839"
+              icon={<ExternalLink className="w-4 h-4" />}
+              label="arXiv"
+            />
             <LinkButton href="#" icon={<Github className="w-4 h-4" />} label="Code (coming soon)" />
           </div>
         </div>
@@ -541,10 +550,14 @@ const Index = () => {
           <h2 className="text-3xl font-bold text-center mb-6">BibTeX</h2>
           <pre className="bg-secondary/50 rounded-lg p-5 text-sm overflow-x-auto font-mono text-foreground/80 border border-border">
             {`@inproceedings{foteinopoulou2026cds,
-  title     = {Concept Distillation Sampling for Training-Free Multi-Concept Image Editing},
-  author    = {Foteinopoulou, Niki and Budvytis, Ignas and Liwicki, Stephan},
-  booktitle = {European Conference on Computer Vision (ECCV)},
-  year      = {2026},
+  title         = {Concept Distillation Sampling for Training-Free Multi-Concept Image Editing},
+  author        = {Foteinopoulou, Niki and Budvytis, Ignas and Liwicki, Stephan},
+  booktitle     = {European Conference on Computer Vision (ECCV)},
+  year          = {2026},
+  eprint        = {2602.20839},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.CV},
+  url           = {https://arxiv.org/abs/2602.20839},
 }`}
           </pre>
         </div>
