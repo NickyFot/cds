@@ -549,15 +549,17 @@ const Index = () => {
         <div className="max-w-3xl mx-auto">
           <h2 className="text-3xl font-bold text-center mb-6">BibTeX</h2>
           <pre className="bg-secondary/50 rounded-lg p-5 text-sm overflow-x-auto font-mono text-foreground/80 border border-border">
-            {`@inproceedings{foteinopoulou2026cds,
-  title         = {Training-Free Multi-Concept Image Editing},
-  author        = {Foteinopoulou, Niki and Budvytis, Ignas and Liwicki, Stephan},
-  booktitle     = {European Conference on Computer Vision (ECCV)},
-  year          = {2026},
-  eprint        = {2602.20839},
-  archivePrefix = {arXiv},
-  primaryClass  = {cs.CV},
-  url           = {https://arxiv.org/abs/2602.20839},
+            {`@InProceedings{10.1007/978-3-032-37211-6_6,
+author="Foteinopoulou, Niki
+and Budvytis, Ignas
+and Liwicki, Stephan",
+title="Training-Free Multi-concept Image Editing",
+booktitle="Computer Vision -- ECCV 2026",
+year="2026",
+publisher="Springer Nature Switzerland",
+address="Cham",
+pages="94--111",
+isbn="978-3-032-37211-6"
 }`}
           </pre>
         </div>
